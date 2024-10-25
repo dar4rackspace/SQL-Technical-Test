@@ -51,6 +51,8 @@ erDiagram
 
 ## Data Preview
 
+### Salesperson 
+
 | id | name          | age | salary  | manager_id |
 |----|---------------|-----|---------|------------|
 | 1  | Alice Smith   | 30  | 60000   | 3          |
@@ -59,7 +61,7 @@ erDiagram
 | 4  | David Brown   | 28  | 55000   | 3          |
 | 5  | Eva Green     | 35  | 72000   | 2          |
 
-## Customer Table
+### Customer Table
 
 | id | name          | city       | industry type   |
 |----|---------------|------------|------------------|
@@ -69,7 +71,7 @@ erDiagram
 | 4  | FinTech Inc.  | Boston     | Finance           |
 | 5  | HealthPlus    | Seattle    | Healthcare        |
 
-## Orders Table
+### Orders Table
 
 | number | order_date | cust_id | salesperson_id | amount  |
 |--------|------------|---------|----------------|---------|
